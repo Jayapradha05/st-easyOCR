@@ -65,7 +65,7 @@ if image_input:
     image = preprocess_image(image_input.read())
     
     # Process when the user clicks "Submit"
-    if st.button("Submit"):
+    if st.button("Extract"):
         # Extract text using EasyOCR
         extracted_text = extract_text_easyocr(image)
     
